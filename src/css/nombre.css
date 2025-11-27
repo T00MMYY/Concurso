@@ -1,0 +1,78 @@
+.containerUser {
+  background: linear-gradient(to right, rgb(143, 113, 250), rgb(15, 89, 199));
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15vh;
+  padding-bottom: 50px;
+}
+
+.infoUser {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(79, 111, 162);
+  box-shadow: 25px 10px 15px rgba(32, 30, 30, 0.2);
+  gap: 16px;
+}
+
+.infoUser h2 {
+  font-size: 35px;
+  margin-top: 40px;
+}
+
+.infoUser p {
+  font-size: 18px;
+}
+
+.explicacionReglas {
+  margin-top: 40px;
+  line-height: 25px;
+}
+
+.explicacionReglas p {
+  font-size: 18px;
+}
+
+.iconoUser {
+  margin-top: 60px;
+  color: black;
+  text-align: left;
+  font-weight: 600;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: 2px solid rgb(72, 72, 72);
+  background-color: white;
+}
+
+.iconoUser:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.buttonComenzar {
+  cursor: pointer;
+  margin-top: 15px;
+  padding: 5px 20px;
+  border-radius: 6px;
+  border: none;
+  border: 1px solid rgb(79, 111, 162);
+  transition:
+    background-color 0.5s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.buttonComenzar:hover {
+  background-color: rgb(65, 81, 172);
+  transform: scale(1.02);
+  box-shadow: 0 8px 12px rgba(32, 30, 30, 0.3);
+  color: white;
+}

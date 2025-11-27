@@ -1,0 +1,223 @@
+/* Parte Presentacion */
+.containerPresentacion {
+  text-align: center;
+  background-color: #ffffff;
+  min-height: 60vh;
+  padding: 40px 20px;
+}
+
+.containerPresentacion h2 {
+  padding-top: 18vh;
+  font-size: 2.5em;
+  color: #1a1a1a;
+}
+
+.containerPresentacion p {
+  margin: 20px auto 40px auto;
+  max-width: 600px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.botonPresentacion {
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: 2px solid #5a7dc9;
+  background: linear-gradient(rgb(15, 110, 218), rgb(90, 62, 155));
+  color: #000000;
+  font-weight: 700;
+  font-size: 1em;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.botonPresentacion:last-child {
+  background: transparent;
+  color: #1a1a1a;
+}
+
+.botonPresentacion:not(:last-child):hover {
+  background: linear-gradient(rgb(90, 62, 155), rgb(15, 110, 218));
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.botonPresentacion:last-child:hover {
+  color: #000000;
+  transform: scale(1.02);
+  box-shadow: 0 8px 12px rgba(32, 30, 30, 0.3);
+  border: 2px solid #5a7dc9;
+}
+
+/* Parte Informacion */
+
+.containerInfo {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  min-height: 50vh;
+}
+
+.containerInfo h2 {
+  font-size: 2em;
+  margin-bottom: 60px;
+  color: #1a1a1a;
+}
+
+.reglas {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 30px;
+}
+
+.reglaImagen {
+  height: 70px;
+  width: auto;
+  margin-bottom: 13px;
+}
+
+.regla {
+  border: 1px solid #d4d3d3;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+  flex-grow: 1;
+  max-width: 300px;
+  height: 23vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fcfcfc;
+  transition: transform 0.3s ease;
+}
+
+.regla:hover {
+  transform: translateY(-5px);
+}
+
+.reglas h4 {
+  color: #f7b731;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.reglas p {
+  line-height: 1.5;
+}
+
+/* Puntaje */
+
+.containerPuntaje {
+  margin: 40px auto;
+  padding: 60px 20px;
+  border-radius: 22px;
+  background: linear-gradient(rgb(19, 58, 233), rgb(72, 36, 156));
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  max-width: 1430px;
+}
+
+.tituloPuntaje {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 900px;
+  gap: 20px;
+}
+
+.info>div {
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+}
+
+.containerPuntaje h3 {
+  font-size: 60px;
+  font-weight: 800;
+  color: #ffda6a;
+  line-height: 1;
+}
+
+.containerPuntaje p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: cursive;
+  margin-top: 5px;
+}
+
+/* Comenzar */
+
+.containerComienzo {
+  min-height: 70vh;
+  background-color: rgb(255, 255, 255);
+  padding-top: 100px;
+  color: black;
+}
+
+.comienzoInfo {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  padding: 80px 0;
+  margin: 0 400px;
+  border-radius: 12px;
+  border: 1px solid rgb(206, 205, 205);
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.comienzoInfo img {
+  height: 80px;
+  width: auto;
+  margin-bottom: 13px;
+}
+
+.comienzoInfo h3 {
+  font-size: 1.6em;
+}
+
+.comienzoInfo p {
+  font-weight: 500;
+  font-size: 1.1em;
+  margin-top: 16px;
+  max-width: 80vh;
+  text-align: center;
+}
+
+.buttonRouter {
+  margin-top: 25px;
+  padding: 12px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f7b731;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease,
+    box-shadow 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttonRouter:hover {
+  background-color: #aa7502;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}

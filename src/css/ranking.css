@@ -1,0 +1,63 @@
+.containerRanking {
+    background: linear-gradient(to right, rgb(143, 113, 250), rgb(15, 89, 199));
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+}
+
+.containerRanking h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.containerRanking p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.tablaRanking {
+    width: 90%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tablaRanking thead tr {
+    background-color: rgb(15, 89, 199);
+    color: white;
+}
+
+.tablaRanking th {
+    padding: 15px 10px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+.tablaRanking td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+.tablaRanking tbody tr:nth-child(even) {
+    background-color: #9a9a9a40;
+}
+
+.tablaRanking tbody tr:first-child {
+    background-color: #f1e89e;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.tablaRanking td:first-child {
+    font-weight: bold;
+
+}
